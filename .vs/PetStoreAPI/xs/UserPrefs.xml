@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{121696D8-F23E-4F18-8E59-81F93129EE29}|Default">
+  <MonoDevelop.Ide.ItemProperties.PetStoreAPI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="PetStoreTest/Helpers/PetHelpers.cs">
+    <Files>
+      <File FileName="PetStoreAPI/Program.cs" />
+      <File FileName="PetStoreAPI/Functions/PetFunctions.cs" />
+      <File FileName="PetStoreAPI/Functions/OrderFunctions.cs" />
+      <File FileName="PetStoreAPI/Functions/UserFunctions.cs" />
+      <File FileName="PetStoreAPI/Helpers/Randomizer.cs" />
+      <File FileName="PetStoreAPI/Helpers/JsonHandler.cs" />
+      <File FileName="PetStoreAPI/Modals/Pet.cs" />
+      <File FileName="PetStoreAPI/Modals/Order.cs" />
+      <File FileName="PetStoreAPI/Modals/User.cs" />
+      <File FileName="PetStoreTest/Helpers/PetHelpers.cs" Line="9" Column="27" />
+      <File FileName="PetStoreTest/Helpers/ResponseHandler.cs" />
+      <File FileName="PetStoreTest/Usings.cs" />
+      <File FileName="PetStoreTest/FunctionsTest/PetFunctionsTest/AddNewPetToStoreTest.cs" />
+      <File FileName="PetStoreTest/FunctionsTest/PetFunctionsTest/FindPetByIdTest.cs" />
+      <File FileName="PetStoreTest/FunctionsTest/PetFunctionsTest/DeletePetById.cs" />
+      <File FileName="PetStoreTest/FunctionsTest/PetFunctionsTest/FindPetByStatusTest.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PetStoreAPI" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="PetStoreAPI" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
