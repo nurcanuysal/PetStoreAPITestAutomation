@@ -8,11 +8,55 @@
     ".NETCoreApp,Version=v7.0": {
       "PetStoreAPI/1.0.0": {
         "dependencies": {
+          "FluentAssertions": "6.10.0",
+          "FluentAssertions.AssertMultiple": "0.0.4",
+          "FluentAssertions.Json": "6.1.0",
+          "NUnit": "3.13.3",
           "Newtonsoft.Json": "13.0.2",
           "RestSharp": "108.0.3"
         },
         "runtime": {
           "PetStoreAPI.dll": {}
+        }
+      },
+      "FluentAssertions/6.10.0": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "assemblyVersion": "6.10.0.0",
+            "fileVersion": "6.10.0.0"
+          }
+        }
+      },
+      "FluentAssertions.AssertMultiple/0.0.4": {
+        "dependencies": {
+          "FluentAssertions": "6.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentAssertions.AssertMultiple.dll": {
+            "assemblyVersion": "0.0.4.0",
+            "fileVersion": "0.0.4.0"
+          }
+        }
+      },
+      "FluentAssertions.Json/6.1.0": {
+        "dependencies": {
+          "FluentAssertions": "6.10.0",
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentAssertions.Json.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
       "Newtonsoft.Json/13.0.2": {
@@ -23,11 +67,49 @@
           }
         }
       },
+      "NUnit/3.13.3": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/nunit.framework.dll": {
+            "assemblyVersion": "3.13.3.0",
+            "fileVersion": "3.13.3.0"
+          }
+        }
+      },
       "RestSharp/108.0.3": {
         "runtime": {
           "lib/net6.0/RestSharp.dll": {
             "assemblyVersion": "108.0.3.0",
             "fileVersion": "108.0.3.0"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.4.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
           }
         }
       }
@@ -39,6 +121,41 @@
       "serviceable": false,
       "sha512": ""
     },
+    "FluentAssertions/6.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Da3YsiRDnOHKBfxutjnupL1rOX0K/jnG6crn5AgwukeqZ/yi+HNCOFshic01ke0ztZFWzpfQMXH8fO9aAbG0Gw==",
+      "path": "fluentassertions/6.10.0",
+      "hashPath": "fluentassertions.6.10.0.nupkg.sha512"
+    },
+    "FluentAssertions.AssertMultiple/0.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uWGqHBFxr5ryOE+R4HOm/s/lvWFQfAlXbnGbgx9XiY0+Buvo3QYXUWTjXOegClftn+owxogXd+bDK5uGouoN1w==",
+      "path": "fluentassertions.assertmultiple/0.0.4",
+      "hashPath": "fluentassertions.assertmultiple.0.0.4.nupkg.sha512"
+    },
+    "FluentAssertions.Json/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O/s91UDF/1gX+Uw3RY1C0rFGwR0zZYrBWGc1xdFUCbWnwGlHrHJpV2ThzAreZUPzwvAks5a1rbkqMe/6nIRseA==",
+      "path": "fluentassertions.json/6.1.0",
+      "hashPath": "fluentassertions.json.6.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+      "path": "netstandard.library/2.0.0",
+      "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
+    },
     "Newtonsoft.Json/13.0.2": {
       "type": "package",
       "serviceable": true,
@@ -46,12 +163,33 @@
       "path": "newtonsoft.json/13.0.2",
       "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
     },
+    "NUnit/3.13.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KNPDpls6EfHwC3+nnA67fh5wpxeLb3VLFAfLxrug6JMYDLHH6InaQIWR7Sc3y75d/9IKzMksH/gi08W7XWbmnQ==",
+      "path": "nunit/3.13.3",
+      "hashPath": "nunit.3.13.3.nupkg.sha512"
+    },
     "RestSharp/108.0.3": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-phq1AkVhqVXHZxvWDV4fJEJKCR5OHNFUGx2Ix8o5EFShS6654oZhth4X2RWvaU/W7UexIswW0T+lTirxfLU2Ow==",
       "path": "restsharp/108.0.3",
       "hashPath": "restsharp.108.0.3.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gWwQv/Ug1qWJmHCmN17nAbxJYmQBM/E94QxKLksvUiiKB1Ld3Sc/eK1lgmbSjDFxkQhVuayI/cGFZhpBSodLrg==",
+      "path": "system.configuration.configurationmanager/4.4.0",
+      "hashPath": "system.configuration.configurationmanager.4.4.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
+      "path": "system.security.cryptography.protecteddata/4.4.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
     }
   }
 }

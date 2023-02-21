@@ -13,6 +13,10 @@
     <None Remove="Modals\" />
     <None Remove="Newtonsoft.Json" />
     <None Remove="RestSharp" />
+    <None Remove="NUnit" />
+    <None Remove="FluentAssertions" />
+    <None Remove="FluentAssertions.Json" />
+    <None Remove="FluentAssertions.AssertMultiple" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Functions\" />
@@ -22,5 +26,9 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="RestSharp" Version="108.0.3" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="FluentAssertions" Version="6.10.0" />
+    <PackageReference Include="FluentAssertions.Json" Version="6.1.0" />
+    <PackageReference Include="FluentAssertions.AssertMultiple" Version="0.0.4" />
   </ItemGroup>
 </Project>

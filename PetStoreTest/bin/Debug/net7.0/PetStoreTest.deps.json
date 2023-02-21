@@ -22,6 +22,40 @@
         }
       },
       "coverlet.collector/3.1.2": {},
+      "FluentAssertions/6.10.0": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "assemblyVersion": "6.10.0.0",
+            "fileVersion": "6.10.0.0"
+          }
+        }
+      },
+      "FluentAssertions.AssertMultiple/0.0.4": {
+        "dependencies": {
+          "FluentAssertions": "6.10.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentAssertions.AssertMultiple.dll": {
+            "assemblyVersion": "0.0.4.0",
+            "fileVersion": "0.0.4.0"
+          }
+        }
+      },
+      "FluentAssertions.Json/6.1.0": {
+        "dependencies": {
+          "FluentAssertions": "6.10.0",
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentAssertions.Json.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/17.3.2": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -326,9 +360,40 @@
           }
         }
       },
+      "System.Configuration.ConfigurationManager/4.4.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
       "System.Reflection.Metadata/1.6.0": {},
+      "System.Security.Cryptography.ProtectedData/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
       "PetStoreAPI/1.0.0": {
         "dependencies": {
+          "FluentAssertions": "6.10.0",
+          "FluentAssertions.AssertMultiple": "0.0.4",
+          "FluentAssertions.Json": "6.1.0",
+          "NUnit": "3.13.3",
           "Newtonsoft.Json": "13.0.2",
           "RestSharp": "108.0.3"
         },
@@ -350,6 +415,27 @@
       "sha512": "sha512-wuLDIDKD5XMt0A7lE31JPenT7QQwZPFkP5rRpdJeblyXZ9MGLI8rYjvm5fvAKln+2/X+4IxxQDxBtwdrqKNLZw==",
       "path": "coverlet.collector/3.1.2",
       "hashPath": "coverlet.collector.3.1.2.nupkg.sha512"
+    },
+    "FluentAssertions/6.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Da3YsiRDnOHKBfxutjnupL1rOX0K/jnG6crn5AgwukeqZ/yi+HNCOFshic01ke0ztZFWzpfQMXH8fO9aAbG0Gw==",
+      "path": "fluentassertions/6.10.0",
+      "hashPath": "fluentassertions.6.10.0.nupkg.sha512"
+    },
+    "FluentAssertions.AssertMultiple/0.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uWGqHBFxr5ryOE+R4HOm/s/lvWFQfAlXbnGbgx9XiY0+Buvo3QYXUWTjXOegClftn+owxogXd+bDK5uGouoN1w==",
+      "path": "fluentassertions.assertmultiple/0.0.4",
+      "hashPath": "fluentassertions.assertmultiple.0.0.4.nupkg.sha512"
+    },
+    "FluentAssertions.Json/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O/s91UDF/1gX+Uw3RY1C0rFGwR0zZYrBWGc1xdFUCbWnwGlHrHJpV2ThzAreZUPzwvAks5a1rbkqMe/6nIRseA==",
+      "path": "fluentassertions.json/6.1.0",
+      "hashPath": "fluentassertions.json.6.1.0.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.3.2": {
       "type": "package",
@@ -435,12 +521,26 @@
       "path": "restsharp/108.0.3",
       "hashPath": "restsharp.108.0.3.nupkg.sha512"
     },
+    "System.Configuration.ConfigurationManager/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gWwQv/Ug1qWJmHCmN17nAbxJYmQBM/E94QxKLksvUiiKB1Ld3Sc/eK1lgmbSjDFxkQhVuayI/cGFZhpBSodLrg==",
+      "path": "system.configuration.configurationmanager/4.4.0",
+      "hashPath": "system.configuration.configurationmanager.4.4.0.nupkg.sha512"
+    },
     "System.Reflection.Metadata/1.6.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
       "path": "system.reflection.metadata/1.6.0",
       "hashPath": "system.reflection.metadata.1.6.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
+      "path": "system.security.cryptography.protecteddata/4.4.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
     },
     "PetStoreAPI/1.0.0": {
       "type": "project",

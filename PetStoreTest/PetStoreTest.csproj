@@ -24,11 +24,15 @@
     <None Remove="Newtonsoft.Json" />
     <None Remove="RestSharp" />
     <None Remove="FunctionsTest\PetFunctionsTest\" />
+    <None Remove="FunctionsTest\OrderFunctionsTest\" />
+    <None Remove="FunctionsTest\UserFunctionsTest\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FunctionsTest\" />
     <Folder Include="Helpers\" />
     <Folder Include="FunctionsTest\PetFunctionsTest\" />
+    <Folder Include="FunctionsTest\OrderFunctionsTest\" />
+    <Folder Include="FunctionsTest\UserFunctionsTest\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PetStoreAPI\PetStoreAPI.csproj" />

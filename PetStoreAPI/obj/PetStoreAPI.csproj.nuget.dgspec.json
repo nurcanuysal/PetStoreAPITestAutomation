@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/selmanuysal_1/Projects/PetStoreAPI/PetStoreAPI/PetStoreAPI.csproj": {}
+    "/Users/selmanuysal/Desktop/PetStoreAPI/PetStoreAPI/PetStoreAPI.csproj": {}
   },
   "projects": {
-    "/Users/selmanuysal_1/Projects/PetStoreAPI/PetStoreAPI/PetStoreAPI.csproj": {
+    "/Users/selmanuysal/Desktop/PetStoreAPI/PetStoreAPI/PetStoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/selmanuysal_1/Projects/PetStoreAPI/PetStoreAPI/PetStoreAPI.csproj",
+        "projectUniqueName": "/Users/selmanuysal/Desktop/PetStoreAPI/PetStoreAPI/PetStoreAPI.csproj",
         "projectName": "PetStoreAPI",
-        "projectPath": "/Users/selmanuysal_1/Projects/PetStoreAPI/PetStoreAPI/PetStoreAPI.csproj",
-        "packagesPath": "/Users/selmanuysal_1/.nuget/packages/",
-        "outputPath": "/Users/selmanuysal_1/Projects/PetStoreAPI/PetStoreAPI/obj/",
+        "projectPath": "/Users/selmanuysal/Desktop/PetStoreAPI/PetStoreAPI/PetStoreAPI.csproj",
+        "packagesPath": "/Users/selmanuysal/.nuget/packages/",
+        "outputPath": "/Users/selmanuysal/Desktop/PetStoreAPI/PetStoreAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/selmanuysal_1/.nuget/NuGet/NuGet.Config"
+          "/Users/selmanuysal/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -38,6 +38,22 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
+            "FluentAssertions.AssertMultiple": {
+              "target": "Package",
+              "version": "[0.0.4, )"
+            },
+            "FluentAssertions.Json": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.2, )"

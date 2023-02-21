@@ -3,7 +3,7 @@ namespace PetStoreAPI.Models
 {
     public partial class Pet
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
         public Category? Category { get; set; }
         public string? Name { get; set; }
         public string[]? PhotoUrls { get; set; }
