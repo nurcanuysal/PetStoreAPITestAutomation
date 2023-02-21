@@ -5,7 +5,7 @@ namespace PetStoreAPI.Modals
 {
         public class Order
         {
-            public int Id { get; set; }
+            public long Id { get; set; }
 
             public int PetId { get; set; }
 
